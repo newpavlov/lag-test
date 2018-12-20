@@ -3,9 +3,8 @@ name = "lag-test"
 version = "0.1.0"
 authors = ["newpavlov <newpavlov@gmail.com>"]
 edition = "2018"
-authors = ["Artyom Pavlov<newpavlov@gmail.com>"]
 license = "MIT OR Apache-2.0"
-description = "Simple input lag testing application"
+description = "Simple application for testing input lag"
 
 [dependencies]
 vulkano = "0.11"

@@ -3,8 +3,8 @@ use structopt::StructOpt;
 
 #[derive(StructOpt)]
 #[structopt(
-    name = "cam-vis",
-    about = "Simple camera visualization tool")]
+    name = "lag-test",
+    about = "Simple application for testing input lag")]
 pub(crate) struct Cli {
     #[structopt(long = "mode", short = "m",
         parse(try_from_str = "parse_mode"),
